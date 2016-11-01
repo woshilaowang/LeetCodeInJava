@@ -17,7 +17,7 @@ Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 
 [LeetCode link](https://leetcode.com/problems/two-sum/)
--my solution:
+###my solution:
 O(n^2)的写法：
 
 ```java
@@ -46,9 +46,9 @@ public class Solution {
 }
 ```
 
-```java
 
-O(n)写法：
+###O(n)写法：
+```java
 public class Solution {
     public static int[] twoSum(int[] nums, int target) {
 	        Map<Integer,Integer> map = new HashMap<>();
