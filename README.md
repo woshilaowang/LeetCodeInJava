@@ -18,7 +18,7 @@ return [0, 1].
 
 [LeetCode link](https://leetcode.com/problems/two-sum/)
 ###my solution:
-O(n^2)的写法：
+*O(n^2)的写法：*
 
 ```java
 package leetcode;
@@ -47,7 +47,7 @@ public class Solution {
 ```
 
 
-###O(n)写法：
+*O(n)写法：*
 ```java
 public class Solution {
     public static int[] twoSum(int[] nums, int target) {
