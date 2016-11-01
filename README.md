@@ -28,12 +28,11 @@ package leetcode;
 @parameter 
 @return 
 */
-public class TwoSum {
+public class Solution {
     public static int[] twoSum(int[] nums, int target) {
-	    	
 	        for(int i = 0;i<nums.length;i++){
 	            int start = nums[i];
-	            for(int j= 0;j<nums.length-i;j++){
+	            for(int j= i+1;j<nums.length;j++){
 	            	int end = nums[j];
 	            	if(start+end==target){
 	            		int[] a = {i,j};
@@ -41,14 +40,10 @@ public class TwoSum {
 	            	}
 	            }
 	        }
-			return null;
+		return null;
 	    }
-	public static void main(String[] args) {
-		int[] nums = {8,2,7,9};
-		int[] x =twoSum(nums, 9);
-		System.out.println(x[0]+"   "+x[1]);
-	}
 }
+
 
 
 
